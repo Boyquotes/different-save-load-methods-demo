@@ -7,14 +7,14 @@ that you're using them all separately.
 ## Comparison of different saving and loading methods
 
 | Type of saving and loading | Text | Binary | Standard format | Stores all data types |
-| --- | --- |
-| JSON | [x] | [ ] | [x] | [ ] |
-| ConfigFile | [x] | [ ] | [x] | [x] |
-| Custom resource | [x] | [x] | [ ] | [x] |
-| PackedScene | [x] | [x] | [ ] | [x] |
+| --- | --- | --- | --- | --- |
+| JSON | ✅ | 🟥 | ✅ | 🟥 |
+| ConfigFile | ✅ | 🟥 | ✅ | ✅ |
+| Custom resource | ✅ | ✅ | 🟥 | ✅ |
+| PackedScene | ✅ | ✅ | 🟥 | ✅ |
 
 ## Additional notes
-## CustomResource
+### Custom resource
 - Needs to have the variables that you want to save as @export variables.
 - The `_init()` (the one that is used when you call `new()`) function needs to have default parameters.
 ### PackedScene
