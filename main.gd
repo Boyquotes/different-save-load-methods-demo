@@ -3,7 +3,7 @@ extends Node2D
 
 const SAVE_PATH_JSON := "user://save.json"
 const SAVE_PATH_CONFIG_FILE := "user://save.ini"
-const SAVE_PATH_CUSTOM_RESOURCE := "user://save_custom_resource.res"
+const SAVE_PATH_CUSTOM_RESOURCE := "user://save_custom_resource.tres"
 const SAVE_PATH_PACKED_SCENE := "user://save_packed_scene.scn"
 
 @export var Actor: PackedScene
