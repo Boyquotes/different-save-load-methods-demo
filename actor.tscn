@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1r2uv8we64gr"]
+
+[ext_resource type="Texture2D" uid="uid://betjy2arkcws7" path="res://icon.svg" id="1_s7m13"]
+[ext_resource type="Script" path="res://actor.gd" id="2_v8fag"]
+
+[node name="Actor" type="Sprite2D" groups=["actors"]]
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("1_s7m13")
+script = ExtResource("2_v8fag")
