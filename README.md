@@ -7,7 +7,7 @@ that you're using them all separately.
 ## Comparison of different saving and loading methods
 
 | Type of saving and loading | Text | Binary | Standard format | Stores all data types |
-| - | - |
+| --- | --- |
 | JSON | [x] | [ ] | [x] | [ ] |
 | ConfigFile | [x] | [ ] | [x] | [x] |
 | Custom resource | [x] | [x] | [ ] | [x] |
